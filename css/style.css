@@ -1,14 +1,14 @@
 .secao-banner {
     background-image: url(../img/free_fire-e1532380966905.png);
     background-size: cover;
-    background-position: top center; 
+    background-position: top center;
+    width: auto;
+    height: 500px; 
 }
 
-.texto{
-    /* position: absolute;
-    margin-top: -350px;
-    margin-left: 200px; */
-    padding: 60px 20px;
+.texto
+{
+    padding-top: 400px;
 }
 
 .texto h1{
