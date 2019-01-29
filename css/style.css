@@ -1,0 +1,81 @@
+.secao-banner {
+    background-image: url(../img/free_fire-e1532380966905.png);
+    background-size: cover;
+    background-position: top center; 
+}
+
+.texto{
+    /* position: absolute;
+    margin-top: -350px;
+    margin-left: 200px; */
+    padding: 60px 20px;
+}
+
+.texto h1{
+    color:#FFD700;
+    font-size: 50px;
+    /* margin-top: 65px; */
+}
+.img-logo{
+    width: 50px;
+    margin-top:8px;
+}
+.menu a:hover{
+    background-color:red;
+}
+.secao{
+    position: relative;
+}
+.secao img{
+    width: 100%;
+    height: 400px;
+}
+.texto{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 200px;
+}
+.texto h1{
+    color:#FFD700;
+    font-size: 50px;
+    margin-top: 65px;
+}
+.texto p{
+    font-size: 20px;
+}
+.links{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.links + .links {
+    margin-left: 50px;
+}
+.img{
+    margin:50px -50px 0px 250px;
+    width: 300px;
+    height: 400px;
+}
+.secao2{
+    /* width: auto;
+    height: 500px;; */
+    background-color: #F4E3B2;
+    padding: 60px 20px;
+}
+
+.art{
+    /* margin-top:-208px;
+    margin-left:322px; */
+
+    /*define e posiciona a imagem de fundo*/
+    background-image: url(../img/poster.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /*centraliza o texto*/
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
